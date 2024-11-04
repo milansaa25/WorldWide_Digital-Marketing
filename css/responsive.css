@@ -1,0 +1,80 @@
+@media(min-width:480px) {
+    .hero {
+        padding: 20px 80px;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .topright {
+        display: block;
+    }
+
+    .btn {
+        padding: 20px;
+        color: var(--w);
+        border: 2px solid var(--w);
+        background: transparent;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    nav a {
+        color: var(--w);
+    }
+
+    .hero-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .hero-left {
+        width: 60%;
+    }
+
+    .hero-right {
+        width: 40%;
+    }
+
+    .hero-left h1 {
+        font-size: 66px;
+    }
+
+    .company{
+        padding: 25px 80px;
+    }
+    .grid{
+        padding: 40px 80px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .pics{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+    .portf{
+        padding: 20px 80px;
+    }
+
+    .client{
+        display: flex;
+        gap: 20px;
+       
+    }
+
+
+
+}
